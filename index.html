@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warframe Codex</title>
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+    <link rel="stylesheet" href="css/WarframePage.css">
+    <script defer src="js/WarframePage.js"></script>
+</head>
+
+<body>
+
+    <header class="wf-header">
+
+        <h1>WARFRAME CODEX</h1>
+        <p class="wf-subsystem">
+    CODEX · ARCHIVO DE COLECCIÓN WARFRAME
+</p>
+        <p class="tenno-symbol">◈</p>
+
+        <p>Colección personal de Warframes</p>
+
+        <div class="progreso">
+
+            <span id="contador">
+                0 / 0 obtenidos
+            </span>
+
+            <div
+                class="barra"
+                role="progressbar"
+                aria-label="Progreso de colección"
+                aria-valuemin="0"
+                aria-valuemax="100">
+
+                <div id="barraProgreso"></div>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <main>
+
+        <section class="controles">
+
+            <input
+                type="text"
+                id="buscador"
+                placeholder="Buscar personaje..."
+                autocomplete="off"
+                aria-label="Buscar Warframe">
+
+            <select
+                id="ordenar"
+                aria-label="Ordenar Warframes">
+
+                <option value="az">A-Z</option>
+                <option value="za">Z-A</option>
+
+            </select>
+
+            <select
+                id="filtroEstado"
+                aria-label="Filtrar por estado">
+
+                <option value="todos">Todos</option>
+                <option value="completado">Conseguidos</option>
+                <option value="pendiente">Pendientes</option>
+
+            </select>
+
+        </section>
+
+        <section id="articulos">
+            <!-- Los Warframes se generan dinámicamente desde JavaScript -->
+        </section>
+
+    </main>
+
+    <div
+        id="wf-achievement"
+        class="wf-achievement hidden"
+        aria-live="polite"
+        aria-atomic="true">
+
+        <div class="wf-achievement-glow"></div>
+
+        <div class="wf-achievement-content">
+
+            <span class="wf-achievement-title">
+                LOGRO DESBLOQUEADO
+            </span>
+
+            <span
+                id="wf-achievement-text"
+                class="wf-achievement-text">
+
+                Colección completada
+
+            </span>
+
+        </div>
+
+    </div>
+<footer class="wf-footer">
+
+    <div class="wf-footer-line"></div>
+
+    <p>
+         PROYECTO FAN 
+    </p>
+
+    <small>
+        Este proyecto ha sido creado por fans con fin de entretenimiento y de seguimiento de colecciones.
+
+Warframe y todos los nombres, imágenes, logotipos y recursos relacionados son marcas registradas y propiedad de Digital Extremes.
+
+Este sitio web no está afiliado, respaldado ni patrocinado por Digital Extremes.
+    </small>
+
+</footer>
+</body>
+
+</html>
