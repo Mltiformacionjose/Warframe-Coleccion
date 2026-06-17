@@ -2,33 +2,33 @@
     {
         "nombre": "Ash",
         "descripcion": "Contempla al santo patrón de la escuela Orokin de asesinato político.",
-        "imagen": "../images/Ash.png!00_cSA7QDlPciC88gEa2uhekQ",
+        "imagen": "images/Ash.png",
         "prime": false
     },
 
     {
         "nombre": "Baruuk",
         "descripcion": "Teme la furia de quien ha sabido esperar.",
-        "imagen": "../images/Pacifist.png!00_GrZBtcYbzR3D1ves4OqfYQ",
+        "imagen": "images/Pacifist.png",
         "prime": false
     },
 
     {
         "nombre": "Excalibur",
         "descripcion": "El primer Warframe original.",
-        "imagen": "../images/Excalibur.png",
+        "imagen": "images/Excalibur.png",
         "prime": true
     },
         {
         "nombre": "Atlas",
         "descripcion": "Los enemigos tiemblan ante el luchador con puños tan duros como la piedra.",
-        "imagen": "../images/Atlas.png!00_Nj7Et1j3wLsXoMfj1Iy3kg",
+        "imagen": "images/Atlas.png",
         "prime": false
     },
             {
         "nombre": "Banshee",
         "descripcion": "La llamada de Banshee anuncia la muerte. Mantiene el control de multitudes e identifica los puntos débiles del enemigo con ataques sónicos.",
-        "imagen": "../images/Banshee.png!00_sV1lVQHM-vI699vTXgvY8A",
+        "imagen": "images/Banshee.png",
         "prime": false
     }
 ]
