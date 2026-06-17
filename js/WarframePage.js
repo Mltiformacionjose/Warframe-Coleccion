@@ -60,14 +60,18 @@ fetch("json/Warframe.json")
         ? "articulo prime"
         : "articulo";
 
-      articulo.innerHTML = `
-        <img src="${warframe.imagen}" alt="${warframe.nombre}">
-        <div class="info">
-          <h2>${warframe.nombre}</h2>
-          <p>${warframe.descripcion}</p>
-          <button class="leer">Obtener</button>
-        </div>
-      `;
+articulo.innerHTML = `
+  <img src="${warframe.imagen}" alt="${warframe.nombre}" loading="lazy">
+  
+  <div class="info">
+    <h2>${warframe.nombre}</h2>
+    <p>${warframe.descripcion}</p>
+
+    <button class="leer" data-nombre="${warframe.nombre}">
+      Obtener
+    </button>
+  </div>
+`;
 
       const boton = articulo.querySelector(".leer");
       const titulo = warframe.nombre;
