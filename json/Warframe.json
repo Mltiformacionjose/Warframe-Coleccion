@@ -18,5 +18,17 @@
         "descripcion": "El primer Warframe original.",
         "imagen": "../images/Excalibur.png",
         "prime": true
+    },
+        {
+        "nombre": "Atlas",
+        "descripcion": "Los enemigos tiemblan ante el luchador con puños tan duros como la piedra.",
+        "imagen": "../images/Atlas.png!00_Nj7Et1j3wLsXoMfj1Iy3kg",
+        "prime": false
+    },
+            {
+        "nombre": "Banshee",
+        "descripcion": "La llamada de Banshee anuncia la muerte. Mantiene el control de multitudes e identifica los puntos débiles del enemigo con ataques sónicos.",
+        "imagen": "../images/Banshee.png!00_sV1lVQHM-vI699vTXgvY8A",
+        "prime": false
     }
 ]

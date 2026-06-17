@@ -65,7 +65,7 @@ fetch("json/Warframe.json")
         <div class="info">
           <h2>${warframe.nombre}</h2>
           <p>${warframe.descripcion}</p>
-          <button class="leer">Marcar como conseguido</button>
+          <button class="leer">Obtener</button>
         </div>
       `;
 
@@ -85,7 +85,7 @@ fetch("json/Warframe.json")
 
         boton.textContent = conseguido
           ? "✓ Conseguido"
-          : "Marcar como conseguido";
+          : "Obtener";
 
         localStorage.setItem(
           titulo,
